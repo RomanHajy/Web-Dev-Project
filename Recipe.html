@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Recipe.css">
+    <title>Recipe Collection</title>
+</head>
+<body>
+
+    <header>
+        <h1>Recipe Collection</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" id="showAll">Show All Recipes</a></li>
+            <li><a href="#" id="showVegetarian">Show Vegetarian Recipes</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="recipes">
+            <!-- Recipes will be dynamically added here -->
+        </section>
+
+        <section id="imageGallery">
+            <h2>Image Gallery</h2>
+            <div class="gallery">
+                <img src="images/recipe2.png" alt="Recipe 2">
+                <img src="images/recipe1.png" alt="Recipe 1">
+                <!-- Add more images as needed -->
+            </div>
+        </section>
+    </main>
+
+    <section id="recipeDetails">
+        <h2>Recipe Details</h2>
+        <article id="recipeDetail">
+            <!-- Recipe details will be dynamically added here -->
+        </article>
+    </section>
+
+    <section id="contactForm">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Recipe Collection</p>
+    </footer>
+
+    <script src="Recipe.js"></script>
+</body>
+</html>
